@@ -1,0 +1,14 @@
+{# templates/form/index.html.twig #}
+
+{% extends 'base.html.twig' %}
+
+{% block title %}Simple Form{% endblock %}
+
+{% block body %}
+<h2>Simple Form</h2>
+
+{{ form_start(form) }}
+{{ form_widget(form) }}
+<button type="submit">Submit</button>
+{{ form_end(form) }}
+{% endblock %}

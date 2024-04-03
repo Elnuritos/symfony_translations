@@ -1,0 +1,4 @@
+form:
+  firstname: 'Имя'
+  lastname: 'Фамилия'
+  description: 'Описание'
